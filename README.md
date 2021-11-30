@@ -21,6 +21,7 @@
 - :bar_chart: [API Deobfuscator: Resolving Obfuscated API Functions in Modern Packers](https://www.blackhat.com/docs/us-15/materials/us-15-Choi-API-Deobfuscator-Resolving-Obfuscated-API-Functions-In-Modern-Packers.pdf) (July 2015)
 - :notebook: [Application of string kernel based support vector machine for malware packer identification](https://ieeexplore.ieee.org/document/6707043) (August 2013)
 - :notebook: [AppSpear: Bytecode Decrypting and DEX Reassembling for Packed Android Malware](https://link.springer.com/chapter/10.1007/978-3-319-26362-5_17) (November 2015)
+- :bar_chart: [The Art of Unpacking](https://www.blackhat.com/presentations/bh-usa-07/Yason/Whitepaper/bh-usa-07-yason-WP.pdf) (September 2015)
 - :notebook: [Automatic Static Unpacking of Malware Binaries](https://ieeexplore.ieee.org/document/5328814) (October 2009)
 - :page_with_curl: [BareUnpack: Generic Unpacking on the Bare-Metal Operating System](https://www.jstage.jst.go.jp/article/transinf/E101.D/12/E101.D_2017EDP7424/_article) (December 2018)
 - :page_with_curl: [Binary-Code Obfuscations in Prevalent Packer Tools](https://doi.org/10.1145/2522968.2522972) (October 2013)
@@ -29,6 +30,7 @@
 - :notebook: [Boosting Scalability in Anomaly-Based Packed Executable Filtering](https://link.springer.com/chapter/10.1007%2F978-3-642-34704-7_3) (November 2011)
 - :mortar_board: [Building a smart and automated tool for packed malware detections using machine learning](https://dial.uclouvain.be/memoire/ucl/en/object/thesis%3A25193) (June 2020)
 - :notebook: [ByteWise: A case study in neural network obfuscation identification](https://ieeexplore.ieee.org/document/8301720/) (January 2018)
+- :notebook: [Challenging anti-virus through evolutionary malware obfuscation](https://link.springer.com/chapter/10.1007%2F978-3-319-31153-1_11) (April 2016)
 - :page_with_curl: [Classification of packed executables for accurate computer virus detection](http://www.sciencedirect.com/science/article/pii/S0167865508002110) (October 2008)
 - :notebook: [Classifying Packed Programs as Malicious Software Detected](https://www.semanticscholar.org/paper/Classifying-Packed-Programs-as-Malicious-Software-Osaghae/676f38819a0ed3028acce36f4f11b0c77e4cc0ae) (December 2016)
 - :pushpin: [Cloak and Dagger: Unpacking Hidden Malware Attacks](https://symantec-enterprise-blogs.security.com/blogs/expert-perspectives/unpacking-hidden-malware-attacks) (December 2016)
@@ -93,9 +95,12 @@
 - :page_with_curl: [Malware Analysis using Multiple API Sequence Mining Control Flow Graph](https://arxiv.org/abs/1707.02691) (July 2017)
 - :page_with_curl: [Malware analysis using visualized images and entropy graphs](https://link.springer.com/article/10.1007%2Fs10207-014-0242-0) (February 2015)
 - :notebook: Malware obfuscation techniques: A brief survey (November 2010)
+- :notebook: [Malware obfuscation through evolutionary packers](https://doi.org/10.1145/2739482.2764940) (July 2015)
 - :page_with_curl: [Malwise - An Effective and Efficient Classification System for Packed and Polymorphic Malware](https://ieeexplore.ieee.org/document/6171162) (June 2013)
+- :notebook: [McBoost: Boosting scalability in malware collection and analysis using statistical classification of executables](https://ieeexplore.ieee.org/document/4721567) (December 2008)
 - :notebook: [Memory behavior-based automatic malware unpacking in stealth debugging environment](https://ieeexplore.ieee.org/document/5665794) (October 2010)
 - :notebook: Modern linux malware exposed (June 2018)
+- :notebook: [MutantX-S: Scalable malware clustering based on static features](https://www.usenix.org/conference/atc13/technical-sessions/presentation/hu) (June 2013)
 - :notebook: [The new signature generation method based on an unpacking algorithm and procedure for a packer detection](https://www.earticle.net/Article/A147420) (February 2011)
 - :page_with_curl: [Obfuscation: The Hidden Malware](https://ieeexplore.ieee.org/document/5975134) (August 2011)
 - :notebook: [Obfuscation: Where are we in anti-DSE protections? (a first attempt)](https://doi.org/10.1145/3371307.3371309) (December 2019)
@@ -123,7 +128,6 @@
 - :notebook: [PE-Probe: Leveraging Packer Detection and Structural Information to Detect Malicious Portable Executables](https://www.semanticscholar.org/paper/PE-Probe%3A-Leveraging-Packer-Detection-and-to-Detect-Shafiq-Tabish/9811ec751f2b5bb41ee46c0ee2a3b6eccc39bb9a) (June 2009)
 - :notebook: [PEAL - Packed Executable AnaLysis](https://link.springer.com/chapter/10.1007/978-3-642-29280-4_28) (January 2012)
 - :scroll: [PinDemonium: a DBI-based generic unpacker for Windows executables](https://www.blackhat.com/docs/us-16/materials/us-16-Mariani-Pindemonium-A-Dbi-Based-Generic-Unpacker-For-Windows-Executables-wp.pdf) (July 2016)
-- :bar_chart: [PinDemonium: a DBI-based generic unpacker for Windows executables](https://www.blackhat.com/docs/us-16/materials/us-16-Mariani-Pindemonium-A-Dbi-Based-Generic-Unpacker-For-Windows-Executables.pdf) (July 2016)
 - :notebook: [PolyUnpack: Automating the Hidden-Code Extraction of Unpack-Executing Malware](https://ieeexplore.ieee.org/document/4041175) (December 2006)
 - :notebook: [Prevalence and Impact of Low-Entropy Packing Schemes in the Malware Ecosystem](https://www.ndss-symposium.org/wp-content/uploads/2020/02/24297.pdf) (February 2020)
 - :notebook: [RAMBO: Run-Time Packer Analysis with Multiple Branch Observation](https://link.springer.com/chapter/10.1007/978-3-319-40667-1_10) (July 2016)
@@ -591,8 +595,20 @@
 ## :wrench: Tools
 
 - [Android Unpacker](https://github.com/strazzere/android-unpacker)
-- aPLib
+
+  Android Unpacker presented at Defcon 22: Android Hacker Protection Level 0.
+
+
+- [aPLib](https://ibsensoftware.com/products_aPLib.html)
+
+  aPLib is a compression library based on the algorithm used in aPACK. It is an easy-to-use alternative to many of the heavy-weight compression libraries available.
+
+
 - [AppSpear](https://github.com/UchihaL/AppSpear)
+
+  AppSpear is a universal and automated unpacking system suitable for both Dalvik and ART. It can solve most mainstream Android packers, such Alibaba, Baidu, Bangcle, Ijiami, Qihoo360, Naga, NetQin, LIAPP, and so on.
+
+
 - [Bintropy](https://github.com/dhondta/bintropy)
 
   Prototype analysis tool that estimates the likelihood that a binary file contains compressed or encrypted bytes.
@@ -600,6 +616,10 @@
 
 
 - [BitBlaze](http://bitblaze.cs.berkeley.edu/release/index.html)
+
+  The BitBlaze Binary Analysis Platform features a novel fusion of static and dynamic analysis techniques, mixed concrete and symbolic execution, and whole-system emulation and binary instrumentation, all to facilitate state-of-the art research on real security problems. Two of the most important components in BitBlaze are Vine, the static analysis component that provides an intermediate language for analyzing machine code, and TEMU, the dynamic analysis component that provides whole-system emulation and dynamic binary instrumentation including taint analysis.
+
+
 - [Clamscan Unpacker](https://clamunpacker.sourceforge.io/)
 
   This is a packer derived from ClamAV open source project for unpacking packed files like UPX, NSPACK , UPACK ,ASPACK etc.
@@ -607,15 +627,15 @@
 
 - [de4js](https://github.com/lelinhtinh/de4js)
 
-  JavaScript Deobfuscator and Unpacker
+  JavaScript Deobfuscator and Unpacker.
 
 
 - [DIE](https://github.com/horsicq/DIE-engine/releases)
 
-  Detect It Easy
+  Detect It Easy, or abbreviated "DIE" is a program for determining types of files.
 
 
-- Ether
+- [Ether](https://ether.gtisc.gatech.edu/web_unpack/)
 
   EtherUnpack: Precision universal automated unpacker
   EtherTrace: Examine trace logs for expected actions (file, registry)
@@ -629,11 +649,24 @@
   - Analyze malware!
 
 
-- Eureka
-- EXEInfo-PE
-- [EXETools](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
+- [Eureka](https://web.archive.org/web/20150502154942/http://eureka.cyber-ta.org/)
 
-  Repository of packer installers.
+  Eureka is a binary static analysis preparation framework. It implements a novel binary unpacking strategy based on statistical  bigram analysis and coarse-grained execution tracing. Eureka incorporates advanced API deobfuscation capabilities to facilitate the structural analysis of the underlying malware logic.  For each uploaded binary, the Eureka service will attempt to unpack and (for Eureka I, disassemble; for Eureka II (not yet available), decompile) the binary, and will produce an annotated callgraph, subroutine/data index page, strings summary, and a list of embedded DNS entries.
+
+
+- [EXEInfo-PE](https://github.com/ExeinfoASL/ASL)
+
+  Fast detector for executable PE files.
+
+
+- [EXETools (Packers)](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
+
+  Repository of packers.
+
+
+- [EXETools (Unpackers)](https://www.exetools.com/unpackers.htm)
+
+  Repository of unpackers.
 
 
 - [FUU](https://fuuproject.wordpress.com/tag/faster-universal-unpacker/)
@@ -642,7 +675,17 @@
 
 
 - [GUnpacker](http://qunpack.ahteam.org/?p=327)
-- IDA-Pro Disassembler
+
+  GUnpacker-assisted shell tool is that it has two main functions:
+  - OEP positioning
+  - Dump been decrypted code and data can be used to repair the follow-up of PE
+
+
+- [IDA-Pro Disassembler](https://hex-rays.com/ida-pro/ida-disassembler/)
+
+  IDA, the second-to-none and indispensable disassembler in the toolbox of any serious software and malware analyst or binary reverse engineer.
+
+
 - Justin
 - [List of .NET Deobfuscators and Unpackers](https://github.com/NotPrab/.NET-Deobfuscator)
 - [Manalyze](https://github.com/JusticeRage/Manalyze)
@@ -691,7 +734,7 @@
   peframe is a open source tool to perform static analysis on Portable Executable malware and generic suspicious file. It can help malware researchers to detect packer, xor, digital signature, mutex, anti debug, anti virtual machine, suspicious sections and functions, macro and much more information about the suspicious files.
 
 
-- [PEiD (original)](http://www.secretashell.com/codomain/peid/)
+- [PEiD](http://www.secretashell.com/codomain/peid/)
 
   Packed Executable iDentifier
   
@@ -703,6 +746,11 @@
 - [PEiD (reborn)](https://github.com/dhondta/peid)
 
   Implementation in Python of the Packed Executable iDentifier (PEiD) in the scope of packing detection for Windows PE files based on signatures. It relies on pefile for abstracting PE files and reading signatures databases. The main tool checks the input executable against the embedded or user-defined signatures database. The second tool allows to create and integrate new signatures.
+
+
+- [PEiD (yara)](https://github.com/K-atc/PEiD)
+
+  Yet another implementation of PEiD with yara.
 
 
 - [PeLib](https://github.com/avast/pelib)
@@ -722,14 +770,24 @@
   From Renovo paper: PolyUnpack is a general approach for extracting the original hidden code without any heuristic assumptions. PolyUnpack takes advantage of the intrinsic nature of packed executables where the hidden code is generated and executed at run-time, and thus it is not present in the code section of the packed executable. As a pre-analysis step, PolyUnpack disassembles the packed executable to partition it into the code and data sections, Then it executes the binary instruction by instruction, checking whether the instruction sequence from the current point is in the code section identified in the pre-analysis step. The authors have implemented this approach and have shown that it can successfully identify and extract the hidden code in malware samples in the wild. However, in terms of performance, disassembling a program and single-step executing a binary significantly increase the computational complexity of its analysis.
 
 
+- [PortEx](https://github.com/katjahahn/PortEx)
+
+  PortEx is a Java library for static malware analysis of Portable Executable files. Its focus is on PE malformation robustness, and anomaly detection. PortEx is written in Java and Scala, and targeted at Java applications.
+
+
 - [PyPackerDetect](https://github.com/cylance/PyPackerDetect)
 
   A small python script/library to detect whether an executable is packed. This is one of many tools we use for dataset curation within the ARG team at Cylance. Accuracy is not perfect, but is sufficient in accomplishing what we need.
 
 
-- [PyPackerDetect](https://github.com/dhondta/PyPackerDetect)
+- [PyPackerDetect (refactored)](https://github.com/dhondta/PyPackerDetect)
 
   A complete refactoring of the original project to a Python package with a console script to detect whether an executable is packed. pefile is used for PE parsing. peid is used as implementation of PEiD.
+
+
+- [PyPeid](https://github.com/FFRI/pypeid)
+
+  Yet another implementation of PEiD with yara-python.
 
 
 - [Quick Unpack](http://qunpack.ahteam.org/?p=458)
