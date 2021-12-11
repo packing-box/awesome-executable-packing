@@ -5,10 +5,10 @@
 
 ## Contents
 
-- [Bibliography](#bibliography)
-- [Packers](#packers)
-- [Tools](#tools)
-- [Datasets](#datasets)
+- [Bibliography](#books-bibliography)
+- [Datasets](#bookmark_tabs-datasets)
+- [Packers](#package-packers)
+- [Tools](#wrench-tools)
 
 
 ## :books: Bibliography
@@ -17,6 +17,7 @@
 - :page_with_curl: [An Accurate Packer Identification Method Using Support Vector Machine](https://www.jstage.jst.go.jp/article/transfun/E97.A/1/E97.A_253/_article) (January 2014)
 - :notebook: [Adaptive Unpacking of Android Apps](https://ieeexplore.ieee.org/document/7985676) (May 2017)
 - :page_with_curl: [All-in-One Framework for Detection, Unpacking, and Verification for Malware Analysis](https://www.hindawi.com/journals/scn/2019/5278137/) (January 2019)
+- :page_with_curl: [Analysis of machine learning approaches to packing detection](https://arxiv.org/abs/2105.00473) (May 2021)
 - :bar_chart: [Android Packers: Separating from the Pack](https://www.fortiguard.com/events/759/2014-06-12-android-packers-separating-from-the-pack) (June 2014)
 - :bar_chart: [API Deobfuscator: Resolving Obfuscated API Functions in Modern Packers](https://www.blackhat.com/docs/us-15/materials/us-15-Choi-API-Deobfuscator-Resolving-Obfuscated-API-Functions-In-Modern-Packers.pdf) (July 2015)
 - :notebook: [Application of string kernel based support vector machine for malware packer identification](https://ieeexplore.ieee.org/document/6707043) (August 2013)
@@ -180,7 +181,17 @@
 
 ## :bookmark_tabs: Datasets
 
+- [Ember](https://github.com/elastic/ember)
+
+  The EMBER dataset is a collection of features from PE files that serve as a benchmark dataset for researchers. The EMBER2017 dataset contained features from 1.1 million PE files scanned in or before 2017 and the EMBER2018 dataset contains features from 1 million PE files scanned in or before 2018. This repository makes it easy to reproducibly train the benchmark models, extend the provided feature set, or classify new PE files with the benchmark models.
+
+
 - [Malfease](http://malfease.oarci.net)
+- [MalShare](https://malshare.com)
+
+  A free Malware repository providing researchers access to samples, malicious feeds, and Yara results.
+
+
 - OARC
 
   3,467 samples ;
@@ -189,12 +200,16 @@
 
 
 - [Offensive Computing](http://www.offensivecomputing.net/)
-- [Packer signatures](https://github.com/merces/pev/blob/master/src/userdb.txt)
-
-  Text file containing various signatures for many packers for PE files.
-
-
 - [PackingData](https://github.com/chesvectain/PackingData)
+
+  Original dataset with sample PE files packed with a large variety of packers, including ASPack, BeRoEXEPacker, exe32pack, eXpressor, FSG, JDPack, MEW, Molebox, MPRESS, Neolite, NSPack, Pckman, PECompact, PEtite, RLPack, UPX, WinUpack, Yoda's Crypter and Yoda's Protector.
+
+
+- [PackingData (sanitized)](https://github.com/dhondta/PackingData)
+
+  Sanitized version of the original dataset, removing packed samples from the Notpacked folder but also samples in packer folders that failed to be packed (having a same hash as the original unpacked executable).
+
+
 - [Packware](https://github.com/ucsb-seclab/packware)
 
   This repository provides datasets and codes that are needed to reproduce the experiments in the paper When Malware is Packin’ Heat; Limits of Machine Learning Classifiers Based on Static Analysis Features.
@@ -202,12 +217,35 @@
 
 - Runtime Packers Testset
 
-  10 common Malware files, packed with about 40 different runtime packers in over 500 versions and options => Over 5000 files
+  10 common Malware files, packed with about 40 different runtime packers in over 500 versions and options
+  => Over 5000 files
   2941 still running correct which were used for the test
 
 
-- [VX Heaven](http://vxheaven.org/)
+- [SOREL](https://github.com/sophos-ai/SOREL-20M)
+
+  Sophos-ReversingLabs 20 Million dataset. The code included in this repository produced the baseline models available at s3://sorel-20m/09-DEC-2020/baselines
+  This code depends on the SOREL dataset available via Amazon S3 at s3://sorel-20m/09-DEC-2020/processed-data/ ; to train the lightGBM models you can use the npz files available at s3://sorel-20m/09-DC-2020/lightGBM-features/ or use the scripts included here to extract the required files from the processed data.
+  If you use this code or this data in your own research, please cite our paper: "SOREL-20M: A Large Scale Benchmark Dataset for Malicious PE Detection " found at https://arxiv.org/abs/2012.07634
+
+
+- [theZoo](https://github.com/ytisf/theZoo)
+
+  theZoo is a project created to make the possibility of malware analysis open and available to the public. Since we have found out that almost all versions of malware are very hard to come by in a way which will allow analysis, we have decided to gather all of them for you in an accessible and safe way. theZoo was born by Yuval tisf Nativ and is now maintained by Shahak Shalev.
+
+
+- [VirusShare](https://virusshare.com/)
+
+  Please [login](https://virusshare.com/login) to search and download.
+  System currently contains 43,141,350 malware samples.
+
+
+- [VX Heaven](http://vxheaven.org)
 - [WildList](http://www.wildlist.org/CurrentList.txt)
+
+  This is a cooperative listing of malwares reported as being in the wild by security professionals. The basis for these reports are incidents where a sample was received, and positively identified by the participants listed in the bottom part of this list.
+
+
 
 <p align="center"><a href="#"><img src="https://img.shields.io/badge/Back%20to%20top--lightgrey?style=social" alt="Back to top" height="20"/></a></p>
 
@@ -215,7 +253,12 @@
 
 ## :package: Packers
 
-- [32Lite](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/)
+- [20to4](http://20to4.net)
+
+  Executable compressor that is able to stuff about 20k of finest code and data into less than 4k.
+
+
+- [32Lite](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - [624](http://eXeManager.yeah.net)
 
   624 is a COM program packer. You can compress COM program shorter than 25000 bytes. The compression rate is fantastic.
@@ -241,20 +284,25 @@
 
 - [Andromeda](https://blog.morphisec.com/andromeda-tactics-analyzed)
 - Anti007
-- aPack
+- [aPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - [APKProtect](https://sourceforge.net/projects/apkprotect/)
 - [Application Protector](https://sourceforge.net/projects/balaji/)
 - [Armadillo](http://siliconrealms.com/index.shtml)
 - [ASPack](http://www.aspack.com/aspack.html)
 - [ASProtect 32](http://www.aspack.com/asprotect64.html)
 - [ASProtect 64](http://www.aspack.com/asprotect64.html)
-- AVPack
-- AXE
+- [AT4RE Protector](https://forum.tuts4you.com/topic/17942-at4re-protector-v10-deprotector/)
+- [AverCryptor](http://www.secnull.org)
+- [AVPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
+- [AXE](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - AxProtector
 - [BangCle](https://github.com/woxihuannisja/Bangcle)
-- BEP
 - Beria
-- BeroEXE
+- Bero
+
+  Bero EXE Packer (BEP)
+
+
 - BIN-crypter
 - BJFNT
 - BoxedApp Packer
@@ -265,18 +313,26 @@
 
 
 - CauseWay Compressor
-- CEXE
+- [CEXE](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - [Code Virtualizer](https://www.oreans.com/CodeVirtualizer.php)
 
   Code Virtualizer is a powerful code obfuscation system for Windows, Linux and Mac OS X applications that helps developers to protect their sensitive code areas against Reverse Engineering with very strong obfuscation code, based on code virtualization.
 
 
 - ComPAck
+- [ConfuserEx](https://github.com/mkaring/ConfuserEx)
+
+  An open-source, free protector for .NET applications.
+
+
 - Crinkler
+- Cryptic
+- [DalKrypt](http://www.dalkit.fr.st)
+- DarkCrypt
 - DEPack
 - [DexGuard](https://www.guardsquare.com/en/products/dexguard)
 - [DexProtector](https://dexprotector.com/)
-- Diet
+- [Diet](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - DotBundle
 - [DotNetZ](https://www.softpedia.com/get/Programming/Packers-Crypters-Protectors/NETZ.shtml)
 
@@ -292,18 +348,21 @@
 
 
 - Enigma
-- [Enigma Protector](https://www.enigmaprotector.com/)
+- [Enigma Protector](https://www.enigmaprotector.com)
 - [Enigma Virtual Box](https://www.enigmaprotector.com/en/aboutvb.html)
 - EP Protector
-- EPack
+- [EPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - EPPort
 - [Eronona-Packer](https://github.com/Eronana/packer)
 
   This is a packer for exe under win32. You can use it to pack any 32-bit exe file.
 
 
+- Excalibur
 - EXE Bundle
+- [EXE Guarder](http://www.exeicon.com/exeguarder)
 - EXE Stealth
+- [EXE Wrapper](http://www.533soft.com/exewrapper)
 - [Exe32Pack](https://exe32pack.apponic.com/)
 - EXECrypt
 - EXECryptor
@@ -312,14 +371,18 @@
 
 
 - EXEPack.NET
-- eXPressor
+- [eXPressor](https://www.cgsoftlabs.ro/express.html)
+
+  Used as a compressor this tool can compress EXE files to half their normal size. Once compressed, the files execute just like normal. As a protector It is designed to protect applications against crackers; also can help developers in creation of uncrackable registration keys, and implementation of trial version for protected software.
+
+
 - Ezip
 - [Ezuri](https://github.com/guitmz/ezuri/blob/master/ezuri.go)
 
   A Simple Linux ELF Runtime Crypter. An unpacker by f0wl can be found at f0wl/ezuri_unpack.
 
 
-- FSG
+- [FSG](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 
   FSG - F[ast] S[mall] G[ood]
   Perfect compressor for small exes, eg. 4k intros, asm appz etc. (upx sux)
@@ -359,7 +422,7 @@
 
 - Krypton
 - LameCrypt
-- LGLZ
+- [LGLZ](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - [LIAPP](https://liapp.lockincomp.com/)
 - [LM-X License Manager](https://www.x-formation.com/lm-x-license-manager)
 
@@ -367,14 +430,14 @@
 
 
 - LxLite
-- LzExe
+- [LzExe](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - [m0dern_p4cker](https://github.com/n4sm/m0dern_p4cker)
 
   Just a modern packer for elf binaries ( works on linux executables only )
 
 
 - MaskPE
-- Megalite
+- [Megalite](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - MEW
 - [MidgetPack](https://github.com/arisada/midgetpack)
 
@@ -384,6 +447,11 @@
 - MKFPack
 - [MoleBox](http://www.molebox.com/download.shtml)
 - Morphine
+- [mPack](https://blog.fearcat.in/a?ID=00050-86a031da-e36f-4409-9a08-d3d993dbf8f5)
+
+  mPack - mario PACKersimple Win32 PE Executable compressor
+
+
 - [MPRESS](https://www.autohotkey.com/mpress/mpress_web.htm)
 - MSLRH
 - Mucki
@@ -393,10 +461,10 @@
   (TODO) this is a Mac OS X executable ; requires Darling installed.
 
 
-- NakedPack
+- [NakedPacker](http://www.PEArmor.com)
 - NCPH
 - NeLite
-- Neolite
+- [Neolite](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - [NetCrypt](https://github.com/friedkiwi/netcrypt)
 
   A proof-of-concept packer for .NET executables, designed to provide a starting point to explain the basic principles of runtime packing.
@@ -412,8 +480,8 @@
   Packer compressing .net assemblies, (ab)using the PE format for data storage.
 
 
-- PACK
-- Pack Master
+- [PACK](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
+- [Pack Master](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - PackItBitch
 - PackMan
 - [Pakkero](https://github.com/89luca89/pakkero)
@@ -424,7 +492,7 @@
 - PangXie
 - [Papaw](https://github.com/dimkr/papaw)
 - PC-Guard
-- PCShrinker
+- [PCShrinker](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - PE Cryptor
 - PE-Armor
 - [PE-Packer](https://github.com/czs108/PE-Packer)
@@ -432,7 +500,7 @@
   Simple packer for Windows 32-bits PE files. The new PE file after packing can obstruct the process of reverse engineering. It will transform the original import table, encrypt sections, clear section names and installing the shell-entry. When running a packed PE file, the shell-entry will decrypt and load the original program by decrypting sections, initializing the original import table and relocation.
 
 
-- PE-Protector
+- [PE-Protector](https://web.archive.org/web/20060111104142/http://www.exetools.com/protectors.htm)
 - [PE-Toy](https://github.com/r0ngwe1/petoy)
 
   A PE file packer.
@@ -440,11 +508,11 @@
 
 - PEBundle
 - [PECompact](http://www.bitsum.com/pec2.asp)
-- PEDiminisher
+- [PEDiminisher](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - PELock
 - PEncrypt
 - PENinja
-- PEPack
+- [PEPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - [PePacker](https://github.com/SamLarenN/PePacker)
 
   Simple PE Packer Which Encrypts .text Section I release a simple PE file packer which encrypts the .text section and adds a decryption stub to the end of the last section. The encryption is a simple xor encryption which can easily be developed to something more stronger.
@@ -471,13 +539,15 @@
 - PKlite
 - PMode
 - PMWLITE
-- PolyCryptA
+- PolyCrypt
 - PolyEne
+- [Polymorph Crypter](http://puccxak.com)
 - PolyPack
 - Private EXE Protector
-- Pro-Pack
+- [Pro-Pack](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - Qihoo
-- RJCrush
+- RCryptor
+- [RJCrush](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - RLPack
 
   Relies on aPLib 0.43
@@ -511,6 +581,7 @@
 
 - Smart Packer
 - SPack
+- ST Protector
 - StealthPE
 - SVK Protector
 - SysPack
@@ -518,7 +589,7 @@
   Device drivers compressor.
 
 
-- T-Pack
+- [T-Pack](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - [tElock](https://www.softpedia.com/get/Programming/Packers-Crypters-Protectors/Telock.shtml)
 
   Telock is a practical tool that intends to help developers who want to protect their work and reduce the size of the executable files. The application is designed to encode your files in order to make them impossible or at least hard to reverse engineer.
@@ -535,37 +606,42 @@
   From Renovo paper: Themida converts the original x86 instructions into virtual instructions in its own randomized instruction set, and then interpret these virtual instructions at run-time.
 
 
-- TinyProg
+- [TinyProg](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - Trojan Protect
+- [TTProtect](http://www.ttprotect.com)
 - UPack
 - UPC
-- Upolyx
+- UPolyX
 - [UPX](https://upx.github.io/)
 
   Ultimate Packer for eXecutables
 
 
 - V2Packer
-- Vacuum
-- VMProtect
+- [Vacuum](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
+- [VMProtect](https://vmpsoft.com/products/vmprotect)
+
+  VMProtect protects code by executing it on a virtual machine with non-standard architecture that makes it extremely difficult to analyze and crack the software. Besides that, VMProtect generates and verifies serial numbers, limits free upgrades and much more.
+
+
 - [Ward](https://github.com/ex0dus-0x/ward)
 
   This is a simple implementation of an ELF packer that creates stealthy droppers for loading malicious ELFs in-memory. Useful for red teamers trying to proliferate a payload while evading detection.
 
 
-- WindCrypt
-- Winkript
-- WinUpack
-- WWPack
-- XE
-- XJ
+- [WinCrypt](https://www.fortypoundhead.com/showcontent.asp?artid=49840)
+- Winkrypt
+- [WinUpack](http://dwing.51.net)
+- [WWPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
+- [XComp](http://www.soft-lab.de/JoKo/index_old.htm)
+- [XE](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - [xorPacker](https://github.com/nqntmqmqmb/xorPacker)
 
   A simple packer working with all PE files which cipher your exe with a XOR implementation.
 
 
-- XPA
-- XPack
+- [XPA](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
+- [XPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/compressors.htm)
 - [Yoda Protector](http://yodap.sourceforge.net)
 
   Yoda's Protector is a free, open source, Windows 32-bit software protector.
@@ -586,7 +662,11 @@
   - API Redirection
 
 
-- ZProtect
+- [ZProtect](http://www.jiami.net/)
+
+  Zprotect goes beyond traditional obfuscation methods. In addition to renaming your metadata entities, it also supports advanced obfuscation methods that will harden your overall protection scheme and foil reverse engineering altogether. See more details below.
+
+
 
 <p align="center"><a href="#"><img src="https://img.shields.io/badge/Back%20to%20top--lightgrey?style=social" alt="Back to top" height="20"/></a></p>
 
