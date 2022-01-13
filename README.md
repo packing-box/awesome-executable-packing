@@ -464,5 +464,5 @@
 
 ## Contributing
 
-Contributions welcome! Read the [contribution guidelines](CONTRIBUTING.md) first.
+Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
 
