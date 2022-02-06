@@ -1,6 +1,14 @@
 # Awesome Executable Packing [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) <a href="https://twitter.com/intent/tweet?text=Awesome%20Executable%20Packing%20-%20A%20curated%20list%20of%20resources%20related%20to%20the%20packing%20of%20various%20executable%20formats%20and%20its%20detection.%0D%0Ahttps%3a%2f%2fgithub%2ecom%2fdhondta%2fawesome-executable-packing%0D%0A&hashtags=awesomelists,malware,malwareresearch,executablepacking,cybersecurity,infosec"><img src="https://img.shields.io/badge/Tweet--lightgrey?logo=twitter&style=social" alt="Tweet" height="20"/></a>
 
-> A curated list of resources related to executable packing (including Portable Executable, Executable and Linkable Format and others). Contains books, papers, blog posts, and other written resources but also packers and tools for detecting and unpacking executables.
+> A curated list of resources related to executable packing (including Portable Executable, Executable and Linkable Format and others) containing references to books, papers, blog posts, and other written resources but also packers and tools for detecting packers and unpacking executables.
+
+*Packing* is the action of modifying an executable in a way that does not modify its purpose. It is generally one or a combination of the following operations:
+- bundling: makes a single executable with multiple files
+- compression: compresses the executable to reduce its original size
+- encryption: obfuscates the executable by encrypting it
+- mutation: alters the executable's code so that it uses a modifided instruction set and architecture (e.g. using oligomorphism)
+- protection: makes the reversing of the executable harder (i.e. using anti-debugging, anti-tampering or other tricks)
+- virtualization: embeds a virtual machine that allows to virtualize executable's instructions
 
 
 ## Contents
