@@ -216,7 +216,7 @@
 - [theZoo](https://github.com/ytisf/theZoo) - Project created to make the possibility of malware analysis open and available to the public.
 - [ViruSign](https://www.virusign.com) - Another online malware database.
 - [VirusShare](https://virusshare.com) - Virus online database with more thant 44 millions of samples.
-- [VX Heaven](https://web.archive.org/web/20170817143838/http://vxheaven.org/) - Site dedicated to providing information about computer viruses to anyone who is interested in this topic.
+- [VX Heaven](https://web.archive.org/web/20170817143838/http://vxheaven.org/) - Site dedicated to providing information about computer viruses.
 - [VX Underground](https://vx-underground.org/samples.html) - PL-CERT based open source MWDB python application holding a malware database containing every APT sample from 2010 and over 7.5M malicious
 binaries.
 - [VXvault](http://vxvault.net/ViriList.php) - Online malware database.
@@ -235,8 +235,8 @@ binaries.
 - [Alternate EXE Packer](https://www.alternate-tools.com/pages/c_exepacker.php) - Compression tool for executable files (type EXE) or DLL's relying on UPX 3.96.
 - [Amber](https://github.com/EgeBalci/amber/releases) - Position-independent(reflective) PE loader that enables in-memory execution of native PE files(EXE, DLL, SYS).
 - [Andromeda](https://blog.morphisec.com/andromeda-tactics-analyzed) - Custom packer used in malware campaigns using RunPE techniques for evading AV mitigation methods.
-- [APKProtect](https://sourceforge.net/projects/apkprotect/)
-- [Armadillo](https://web.archive.org/web/20030324043555/https://www.exetools.com/files/protectors/win/armd252b2.zip)
+- [APKProtect](https://sourceforge.net/projects/apkprotect) - APK encryption and shell protection supporting Java and C++.
+- [Armadillo](https://web.archive.org/web/20030324043555/https://www.exetools.com/files/protectors/win/armd252b2.zip) - Incorporates both a license manager and wrapper system for protecting PE files.
 - [ASPack](http://www.aspack.com/aspack.html) - Advanced solution created to provide Win32 EXE file packing and to protect them against non-professional reverse engineering.
 - [ASProtect 32](http://www.aspack.com/asprotect32.html) - Multifunctional EXE packing tool designed for software developers to protect 32-bit applications with in-built application copy protection system.
 - [ASProtect 64](http://www.aspack.com/asprotect64.html) - Tool for protecting 64-bit applications and .NET applications for Windows against unauthorized use, industrial and home copying, professional hacking and analysis of software products distributed over the Internet and on any physical media.
@@ -251,27 +251,27 @@ binaries.
 - [DarkCrypt](https://totalcmd.net/plugring/darkcrypttc.html) - Simply and powerful plugin for Total Commander used for file encryption using 100 algorithms and 5 modes.
 - [DexGuard](https://www.guardsquare.com/en/products/dexguard) - Android app obfuscation & security protocols for mobile app protection.
 - [DexProtector](https://dexprotector.com/) - Multi-layered RASP solution that secures your Android and iOS apps against static and dynamic analysis, illegal use and tampering.
+- [DotBundle](https://web.archive.org/web/20160508074421/http://www.dotbundle.com:80/download.html) - GUI tool to compress, encrypt ad password-protect a .NET application or embed .NET libraries.
 - [DotNetZ](https://www.softpedia.com/get/Programming/Packers-Crypters-Protectors/NETZ.shtml) - Straightforward and lightweight, command-line piece of software written in C that allows you to compress and pack Microsoft .NET Framework executable files.
 - [ELFuck](https://github.com/timhsutw/elfuck) - ELF packer for i386 original version from sk2 by sd.
-- [Enigma Protector](https://www.enigmaprotector.com)
-- [Enigma Virtual Box](https://www.enigmaprotector.com/en/aboutvb.html)
+- [Enigma Protector](https://www.enigmaprotector.com) - Professional system for executable files licensing and protection.
+- [Enigma Virtual Box](https://www.enigmaprotector.com/en/aboutvb.html) - Application virtualization system for Windows.
 - [Eronona-Packer](https://github.com/Eronana/packer) - This is a packer for exe under win32.
-- [EXE Bundle](http://www.webtoolmaster.com/download/EBundle.exe)
-- [EXE Stealth](http://www.webtoolmaster.com/packer.htm)
+- [EXE Bundle](https://www.webtoolmaster.com/exebundle.htm) - Bundles application files into a single PE32 file.
+- [EXE Stealth](http://www.webtoolmaster.com/packer.htm) - Anti-cracking protection and licensing tool for PE files featuring compression and encryption polymorphic technology.
 - [Ezuri](https://github.com/guitmz/ezuri/blob/master/ezuri.go) - A Simple Linux ELF Runtime Crypter.
 - [GzExe](https://git.savannah.gnu.org/cgit/gzip.git) - Utility that allows to compress executables as a shell script.
-- [hXOR-Packer](https://github.com/rurararura/hXOR-Packer)
-- [Ijiami](https://www.ijiami.cn/enindex)
-- [LIAPP](https://liapp.lockincomp.com/)
+- [hXOR-Packer](https://github.com/rurararura/hXOR-Packer) - PE packer with Huffman compression and XOR encryption.
+- [LIAPP](https://liapp.lockincomp.com) - Easiest and most powerful mobile app security solution.
 - [LM-X License Manager](https://www.x-formation.com/lm-x-license-manager) - LM-X License Manager lets you protect your products against piracy by enforcing various levels of security, save time, and reduce business risks.
 - [m0dern_p4cker](https://github.com/n4sm/m0dern_p4cker) - Just a modern packer for elf binaries ( works on linux executables only ).
 - [MidgetPack](https://github.com/arisada/midgetpack) - Midgetpack is a binary packer for ELF binaries, such as burneye, upx or other tools.
-- [MPRESS](https://www.autohotkey.com/mpress/mpress_web.htm)
+- [MPRESS](https://www.autohotkey.com/mpress/mpress_web.htm) - Compresses (using LZMA) and protects PE, .NET or Mach-O programs against reverse engineering.
 - [NetCrypt](https://github.com/friedkiwi/netcrypt) - A proof-of-concept packer for .NET executables, designed to provide a starting point to explain the basic principles of runtime packing.
 - [Obsidium](http://www.obsidium.de/show.php?home) - Feature-rich professional software protection and licensing system designed as a cost effective and easy to implement, yet reliable and non-invasive way to protect your 32- and 64-bit Windows software applications and games from reverse engineering.
 - [Origami](https://github.com/dr4k0nia/Origami) - Packer compressing .net assemblies, (ab)using the PE format for data storage.
 - [Pakkero](https://github.com/89luca89/pakkero) - Pakkero is a binary packer written in Go made for fun and educational purpose.
-- [Papaw](https://github.com/dimkr/papaw)
+- [Papaw](https://github.com/dimkr/papaw) - Permissively-licensed packer for ELF executables using LZMA Zstandard or Deflate compression.
 - [PE-Packer](https://github.com/czs108/PE-Packer) - Simple packer for Windows 32-bits PE files.
 - [PE-Toy](https://github.com/r0ngwe1/petoy) - A PE file packer.
 - [PELock](https://www.pelock.com) - Software protection system for Windows executable files ; protects your applications from tampering and reverse engineering, and provides extensive support for software license key management, including support for time trial periods.
@@ -287,7 +287,7 @@ binaries.
 - [UPX](https://upx.github.io/) - Ultimate Packer for eXecutables.
 - [Ward](https://github.com/ex0dus-0x/ward) - This is a simple implementation of an ELF packer that creates stealthy droppers for loading malicious ELFs in-memory.
 - [xorPacker](https://github.com/nqntmqmqmb/xorPacker) - Simple packer working with all PE files which cipher your exe with a XOR implementation.
-- [ZProtect](http://www.jiami.net/) - Renames metadata entities and supports advanced obfuscation methods that harden protection scheme and foil reverse engineering altogether.
+- [ZProtect](http://www.jiami.net) - Renames metadata entities and supports advanced obfuscation methods that harden protection scheme and foil reverse engineering altogether.
 
 <p align="center"><a href="#"><img src="https://img.shields.io/badge/Back%20to%20top--lightgrey?style=social" alt="Back to top" height="20"/></a></p>
 
@@ -301,8 +301,7 @@ binaries.
 - [AverCryptor](https://web.archive.org/web/20071012084924/http://secnull.org) - Small and very handy utility designed to encrypt notes in which you can store any private information - it helps to hide your infection from antiviruses.
 - [BurnEye](https://packetstormsecurity.com/files/29691/burneye-1.0-linux-static.tar.gz.html) - Burneye ELF encryption program, x86-linux binary.
 - [ByteBoozer](https://csdb.dk/release/?id=33093) - Commodore 64 executable packer.
-- [DalKrypt](http://www.dalkit.fr.st)
-- [EXE Guarder](http://www.exeicon.com/exeguarder)
+- [EXE Guarder](http://www.exeicon.com/exeguarder) - Licensing tool for PE files allowing to compress and specify a password notice.
 - [Exe32Pack](https://exe32pack.apponic.com/) - Compresses Win32 EXEs, DLLs, etc and dynamically expands them upon execution.
 - [EXECryptor](https://execryptor.freedownloadscenter.com/windows) - Tool for protecting programs from reverse engineering, analysis, modifications and cracking.
 - [eXPressor](https://www.cgsoftlabs.ro/express.html) - Used as a compressor this tool can compress EXE files to half their normal size.
@@ -310,19 +309,16 @@ binaries.
 - [GHF Protector](https://www.delphibasics.info/home/delphibasicscounterstrikewireleases/ghfprotector10) - Executable packer / protector based on open source engines Morphine and AHPack.
 - [Kkrunchy](http://www.farbrausch.de/~fg/kkrunchy) - Kkrunchy is a small exe packer primarily meant for 64k intros.
 - [mPack](https://blog.fearcat.in/a?ID=00050-86a031da-e36f-4409-9a08-d3d993dbf8f5) - mPack - mario PACKersimple Win32 PE Executable compressor.
-- [NakedPacker](http://www.PEArmor.com)
 - [NSPack](https://nspack.apponic.com/) - 32/64-bits exe, dll, ocx, scr Windows program compressor.
 - [NTPacker](https://hacking-software-free-download.blogspot.com/2013/02/nt-packer-v21.html) - PE file packer relying on aPlib for compression and/or XOR for encryption.
-- [PECompact](http://www.bitsum.com/pec2.asp)
-- [Polymorphic Crypter](http://puccxak.com)
+- [PECompact](http://www.bitsum.com/pec2.asp) - Windows executable compressor featuring third-party plug-ins offering protection against reverse engineering.
 - [RLPack](https://web.archive.org/web/20070527132336/http://rlpack.jezgra.net) - Compresses your executables and dynamic link libraries in a way that keeps them small and has no effect on compressed file functionality.
-- [RUCC](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/rucc386.zip)
 - [Shiva](https://packetstormsecurity.com/files/31087/shiva-0.95.tar.gz.html) - Shiva is a tool to encrypt ELF executables under Linux.
-- [Shrinker](https://web.archive.org/web/20081022073034/http://www.blinkinc.com/shrinker.htm) - Tool that compresses and transparently decompresses 16 and 32 bit Windows and real mode DOS programs, compressed by up to 70%, with no separate decompression step.
+- [Shrinker](https://web.archive.org/web/20081022073034/http://www.blinkinc.com/shrinker.htm) - Compresses (up to 70%) 16 and 32 bit Windows and real mode DOS programs.
 - [tElock](https://www.softpedia.com/get/Programming/Packers-Crypters-Protectors/Telock.shtml) - Telock is a practical tool that intends to help developers who want to protect their work and reduce the size of the executable files.
-- [TTProtect](http://www.ttprotect.com)
-- [WinCrypt](https://www.fortypoundhead.com/showcontent.asp?artid=49840)
-- [WinUpack](https://www.sac.sk/download/pack/wupck039.zip)
+- [TTProtect](http://www.ttprotect.com) - Professional protection tool designed for software developers to protect their PE applications against illegal modification or decompilation.
+- [WinLite](http://www.win3x.org/win3board/viewtopic.php?t=1435&language=en) - Compresses Windows executables (such as Pklite, Diet or Wwpack) for executables programs under DOS.
+- [WinUpack](https://www.sac.sk/download/pack/wupck039.zip) - Graphical interface for Upack, a command-line program used to create self-extracting archives from Windows PE files.
 - [XComp](http://www.soft-lab.de/JoKo/index_old.htm) - PE32 image file packer and rebuilder.
 - [Yoda Crypter](https://sourceforge.net/projects/yodap/files/Yoda%20Crypter/1.3/yC1.3.zip/download) - Supports polymorphic encryption, softice detection, anti-debug API's, anti-dumping, etc, encrypts the Import Table and erases PE Header.
 - [Yoda Protector](http://yodap.sourceforge.net) - Free, open source, Windows 32-bit software protector.
@@ -334,30 +330,30 @@ binaries.
 - [32Lite](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/32lte02d.zip) - Compression tool for executable files created with Watcom C/C++ compiler.
 - [624](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/624-11.zip) - COM packer that can compress COM programs shorter than 25000 bytes.
 - [AinEXE](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/ain232.zip) - DOS executable packer.
-- [aPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/apack099.zip)
+- [aPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/apack099.zip) - 16-bit real-mode DOS executable ( .EXE and .COM ) compressor.
 - [AVPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/avpck122.zip) - Encrypts EXE or COM files so that they'll be able to start on your PC only.
 - [AXE](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/axe22.zip) - Program compression utility.
 - [CEXE](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/win/cexe10a.zip) - Compresses an input EXE into a smaller executable (only runs on WinNT, Win2000 and above - won't run on Win95 or Win98).
-- [EPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/epack16.zip)
-- [LGLZ](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/lglz104b.zip)
-- [LzExe](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/lzexe100.zip)
-- [Megalite](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/megal120.zip)
-- [PACK](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/pack201.zip)
-- [PCShrink](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/win/pcsnk071.zip)
-- [PE-Protector](https://web.archive.org/web/20030324043555/https://www.exetools.com/files/protectors/win/pe-protector10.zip)
+- [EPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/epack16.zip) - EXE and COM file compressor ; works with DOS/Windows95 files.
+- [LGLZ](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/lglz104b.zip) - DOS EXE and COM file compressor using modified LZ77.
+- [LzExe](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/lzexe100.zip) - MS-DOS executable file compressor.
+- [Megalite](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/megal120.zip) - MS-DOS executable file compressor.
+- [PACK](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/pack201.zip) - Executable files compressor.
+- [PCShrink](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/win/pcsnk071.zip) - Windows 9x/NT executable file compressor relying on the aPLib compression library.
+- [PE-Protector](https://web.archive.org/web/20030324043555/https://www.exetools.com/files/protectors/win/pe-protector10.zip) - Encrypter/protector for Windows 9x/ME to protect executable files PE
+against reverse engineering or cracking with a very strong protection.
 - [PEBundle](http://www.collakesoftware.com/files/pebsetup.exe) - Physically attaches DLL(s) to an executable, resolving dependencies in memory.
-- [PEDiminisher](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/win/ped.zip)
-- [PEPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/win/pepack10.zip)
-- [Pro-Pack](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/pp219.zip)
-- [RJCrush](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/rjcru110.zip)
-- [SecuPack](https://web.archive.org/web/20210119235522/https://www.exetools.com/files/compressors/win/secupack15.zip)
+- [PE Diminisher](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/win/ped.zip) - Simple PE packer relying on the aPLib compression library.
+- [PEPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/win/pepack10.zip) - PE compression tool based on the code of a newer version of PE-SHiELD.
+- [Pro-Pack](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/pp219.zip) - DOS executable file compressor.
+- [RJCrush](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/rjcru110.zip) - EXE and COM files compressor with the ability to compress overlays.
 - [SysPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/syspack.zip) - Device drivers compressor.
-- [T-Pack](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/tpack05.zip)
-- [TinyProg](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/tinyp39.zip)
-- [Vacuum](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/vacuum.zip)
+- [T-Pack](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/tpack05.zip) - Executable COM-FILE  compressor (LZ77) optimized for small files like BBS-Addys or similar files.
+- [TinyProg](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/tinyp39.zip) - EXE and COM programs compressor.
+- [Vacuum](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/vacuum.zip) - Runtime Compressor for DOS32 executables.
 - [VGCrypt](ftp://ftp.cdrom.com/.3/sac/security/vgcrypt.zip) - PE crypter for Win95/98/NT.
-- [WWPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/wwp305b5.zip)
-- [XE](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/xe145-0119.zip)
+- [WWPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/wwp305b5.zip) - Squeezes EXE files, compresses relocation tables, optimizes headers, protects EXE files from hacking.
+- [XE](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/xe145-0119.zip) - DOS executable compression utility.
 - [XPA](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/xpa.zip) - DOS executable packer.
 - [XPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/xpak167m.zip) - PE32 image file packer and rebuilder.
 
@@ -369,16 +365,18 @@ binaries.
 
 - [.NET Deobfuscator](https://github.com/NotPrab/.NET-Deobfuscator) - List of .NET Deobfuscators and Unpackers.
 - [Android Unpacker](https://github.com/strazzere/android-unpacker) - Android Unpacker presented at Defcon 22: Android Hacker Protection Level 0.
+- [APKiD](https://github.com/rednaga/APKiD) - Android application Identifier for packers, protectors, obfuscators and oddities - PEiD for Android.
 - [aPLib](https://ibsensoftware.com/products_aPLib.html) - Compression library based on the algorithm used in aPACK.
 - [AppSpear](https://github.com/UchihaL/AppSpear) - Universal and automated unpacking system suitable for both Dalvik and ART.
 - [Assiste (Packer)](https://assiste.com/Packer.html) - Assiste.com's example list of packers.
 - [AVClass](https://github.com/malicialab/avclass) - Python tools to tag / label malware samples.
 - [Bintropy](https://github.com/dhondta/bintropy) - Prototype analysis tool that estimates the likelihood that a binary file contains compressed or encrypted bytes.
-- [BinUnpack](https://doi.org/10.1145/3243734.3243771)
+- [BinUnpack](https://doi.org/10.1145/3243734.3243771) - Unpacking approach free from tedious memory access monitoring, therefore introducing very small runtime overhead.
 - [BitBlaze](http://bitblaze.cs.berkeley.edu/release/index.html) - Analysis platform that features a novel fusion of static and dynamic analysis techniques, mixed concrete and symbolic execution, and whole-system emulation and binary instrumentation, all to facilitate state-of-the art research on real security problems.
 - [Clamscan Unpacker](https://clamunpacker.sourceforge.io/) - Unpacker derived from ClamAV.
 - [de4dot](https://github.com/0xd4d/de4dot) - .NET deobfuscator and unpacker.
 - [de4js](https://github.com/lelinhtinh/de4js) - JavaScript Deobfuscator and Unpacker.
+- [Defacto2 Packers Archive](https://defacto2.net/f/a520164) - MS-DOS & Windows32 binary file packers.
 - [DIE](https://github.com/horsicq/DIE-engine/releases) - Detect It Easy ; Program for determining types of files.
 - [Emulator](https://techdocs.broadcom.com/us/en/symantec-security-software/endpoint-security-and-management/endpoint-protection/all/Using-policies-to-manage-security/preventing-and-handling-virus-and-spyware-attacks-v40739565-d49e172/how-does-the-emulator-in-symantec-endpoint-protect-v121004909-d47e230.html) - Symantec Endpoint Protector (from v14) capability to create a virtual machine on the fly to identify, detonate, and eliminate malware hiding inside custom malware packers.
 - [EtherUnpack](https://ether.gtisc.gatech.edu/web_unpack) - Precision universal automated unpacker (successor of PolyUnpack).
@@ -422,7 +420,7 @@ binaries.
 - [Quick Unpack](http://qunpack.ahteam.org/?p=458) - Generic unpacker that facilitates the unpacking process.
 - [RapidEXE](https://sourceforge.net/projects/rapidexe/) - Simple and efficient way to convert a PHP/Python script to a standalone executable.
 - [RDG Packer Detector](http://www.rdgsoft.net/) - Packer detection tool.
-- [Red Curtain](http://www.mandiant.com)
+- [Red Curtain](https://mandiant-red-curtain.apponic.com) - Free software for Incident Responders that assists with the analysis of malware ; it examines executable files (e.g., .exe, .dll, and so on) to determine how suspicious they are based on a set of criteria.
 - [REMINDer](https://doi.org/10.1109/CSA.2009.5404211) - Packing detection tool based on the entropy value of the entry point section and the WRITE attribute.
 - [Renovo](https://doi.org/10.1145/1314389.1314399) - Detection tool built on top of TEMU (dynamic analysis component of BitBlaze) based on the execution of newly-generated code and monitoring memory writes after the program starts.
 - [RetDec](https://github.com/avast/retdec/releases) - Retargetable machine-code decompiler based on LLVM.
