@@ -31,6 +31,7 @@
 ### Documentation
 
 - :earth_americas: [A.out binary format](https://wiki.osdev.org/A.out)
+- :earth_americas: [ABI mach-O file format reference](https://github.com/aidansteele/osx-abi-macho-file-format-reference)
 - :bar_chart: [Android packers: Separating from the pack](https://www.fortiguard.com/events/759/2014-06-12-android-packers-separating-from-the-pack)
 - :bar_chart: [API deobfuscator: Resolving obfuscated API functions in modern packers](https://www.blackhat.com/docs/us-15/materials/us-15-Choi-API-Deobfuscator-Resolving-Obfuscated-API-Functions-In-Modern-Packers.pdf)
 - :bar_chart: [The art of unpacking](https://www.blackhat.com/presentations/bh-usa-07/Yason/Whitepaper/bh-usa-07-yason-WP.pdf)
@@ -38,6 +39,7 @@
 - :earth_americas: [COM binary format](https://wiki.osdev.org/COM)
 - :earth_americas: [Common object file format (COFF)](https://wiki.osdev.org/COFF)
 - :earth_americas: [Comparison of executable file formats](https://en.wikipedia.org/wiki/Comparison_of_executable_file_formats)
+- :earth_americas: [Defacto2](https://defacto2.net/defacto2)
 - :bar_chart: [Dynamic binary analysis and obfuscated codes](https://triton.quarkslab.com/files/sthack2016-rthomas-jsalwan.pdf)
 - :earth_americas: [Executable and linkable format (ELF)](https://wiki.osdev.org/ELF)
 - :clipboard: [Executable and linking format (ELF) specification](https://refspecs.linuxfoundation.org/elf/elf.pdf)
@@ -55,6 +57,7 @@
 - :bar_chart: [TitanMist: Your first step to reversing nirvana](https://www.reversinglabs.com/blackhat/TitanMist_BlackHat-USA-10-Slides.pdf)
 - :pushpin: [Tuts 4 you - UnPackMe (.NET)](https://forum.tuts4you.com/forum/155-unpackme-net)
 - :pushpin: [Tuts 4 you | unpackme](https://forum.tuts4you.com/forum/147-unpackme)
+- :bar_chart: [Virtual machine obfuscation](https://compil2019.minesparis.psl.eu/wp-content/uploads/2019/02/BeatriceCreusillet-Obfuscation-quarkslab.pdf)
 - :bar_chart: [We can still crack you! General unpacking method for Android Packer (NO ROOT)](https://www.blackhat.com/asia-15/briefings.html#we-can-still-crack-you-general-unpacking-method-for-android-packer-no-root)
 - :clipboard: [Win32 portable executable packing uncovered](https://securitylabs.websense.com/content/Assets/HistoryofPackingTechnology.pdf)
 - :pushpin: [Writing a packer](https://dr4k0nia.github.io/dotnet/coding/2021/06/24/Writing-a-Packer.html)
@@ -347,6 +350,8 @@
 - [NTPacker](https://hacking-software-free-download.blogspot.com/2013/02/nt-packer-v21.html) - PE file packer relying on aPlib for compression and/or XOR for encryption.
 - [PECompact](http://www.bitsum.com/pec2.asp) - Windows executable compressor featuring third-party plug-ins offering protection against reverse engineering.
 - [RLPack](https://web.archive.org/web/20070527132336/http://rlpack.jezgra.net) - Compresses your executables and dynamic link libraries in a way that keeps them small and has no effect on compressed file functionality.
+- [RSCC](https://defacto2.net/f/a520164?packer=rscc) - ROSE Super COM Crypt ; polymorph cryptor for files greater than 300-400B and smaller than 60kB.
+- [RUCC](https://defacto2.net/f/a520164?packer=rucc) - ROSE Ultra COM Compressor ; COM and EXE compression utility based on 624.
 - [Sentinel HASP Envelope](https://cpl.thalesgroup.com/en-gb/software-monetization/all-products/sentinel-hasp) - Wrapping application that protects the target application with a secure shield, providing a means to counteract reverse engineering and other anti-debugging measures.
 - [Shiva](https://packetstormsecurity.com/files/31087/shiva-0.95.tar.gz.html) - Shiva is a tool to encrypt ELF executables under Linux.
 - [Shrinker](https://web.archive.org/web/20081022073034/http://www.blinkinc.com/shrinker.htm) - Compresses (up to 70%) 16 and 32 bit Windows and real mode DOS programs.
@@ -378,22 +383,27 @@
 - [CauseWay Compressor](https://github.com/tkchia/causeway/tree/1ead4be14c9e536262e225f090b40b0c6cded286/watcom) - DOS EXE compressor.
 - [CC Pro](https://defacto2.net/f/a520164?packer=ccpro) - COM and EXE executable file compression utility.
 - [CEXE](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/win/cexe10a.zip) - Compresses an input EXE into a smaller executable (only runs on WinNT, Win2000 and above - won't run on Win95 or Win98).
+- [COMProtector](https://defacto2.net/f/a520164?packer=comprotector) - Adds a security envelope around DOS .COM files by randomly encrypting it and adding several anti-debugging tricks.
 - [CrackStop](https://defacto2.net/f/a520164?packer=crackstop) - Tool that creates a security  envelope around a DOS EXE file to protect it against crackers.
 - [EPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/epack16.zip) - EXE and COM file compressor ; works with DOS/Windows95 files.
 - [ExeGuard](https://defacto2.net/f/a520164?packer=exeguard) - DOS EXE files free protector using anti-debugging ticks to prevent hacking, analysis and unpacking.
+- [EXELOCK 666](https://defacto2.net/f/a520164?packer=exelock666) - Utility for protecting .EXE files so no lamers can hack out the copyright.
 - [FSE](https://defacto2.net/f/a520164?packer=fse) - Final Fantasy Security Envelope freeware for protecting COM and EXE progams.
 - [Gardian Angel](https://defacto2.net/f/a520164?packer=gardian-angel) - COM and EXE encrypter and protector using a variety of anti-debugging tricks.
 - [JMCryptExe](https://defacto2.net/f/a520164?packer=jmce) - DOS EXE encrypter.
 - [LGLZ](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/lglz104b.zip) - DOS EXE and COM file compressor using modified LZ77.
-- [LzExe](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/lzexe100.zip) - MS-DOS executable file compressor.
+- [LzExe](https://defacto2.net/f/a520164?packer=lzexe) - MS-DOS executable file compressor.
+- [Mask](https://defacto2.net/f/a520164?packer=mask) - Tool that prevents COM program from being cracked by using encryption and anti-debugging tricks.
 - [Megalite](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/megal120.zip) - MS-DOS executable file compressor.
-- [Neolite](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/win/neolte20.zip)
+- [Mess](https://defacto2.net/f/a520164?packer=mess) - This tool does the same as HackStop, with the exception that it is freeware for non-commercial use.
+- [Neolite](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/win/neolte20.zip) - Compresses Windows 32-bit EXE files and DLLs.
 - [PACK](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/pack201.zip) - Executable files compressor.
 - [PCShrink](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/win/pcsnk071.zip) - Windows 9x/NT executable file compressor relying on the aPLib compression library.
 - [PE Diminisher](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/win/ped.zip) - Simple PE packer relying on the aPLib compression library.
 - [PE-Protector](https://web.archive.org/web/20030324043555/https://www.exetools.com/files/protectors/win/pe-protector10.zip) - Encrypter/protector for Windows 9x/ME to protect executable files PEagainst reverse engineering or cracking with a very strong protection.
 - [PEBundle](http://www.collakesoftware.com/files/pebsetup.exe) - Physically attaches DLL(s) to an executable, resolving dependencies in memory.
 - [PEPack](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/win/pepack10.zip) - PE compression tool based on the code of a newer version of PE-SHiELD.
+- [PKlite](https://defacto2.net/f/a520164?packer=pklite) - Easy-to-use file compression program for compressing DOS and Windows executable files.
 - [Pro-Pack](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/pp219.zip) - DOS executable file compressor.
 - [RJCrush](https://web.archive.org/web/20060111104142/http://www.exetools.com/files/compressors/dos/rjcru110.zip) - EXE and COM files compressor with the ability to compress overlays.
 - [Scorpion](https://defacto2.net/f/a520164?packer=scorpion) - EXE and COM file encrypter and protector.
@@ -419,6 +429,7 @@
 
 - [.NET Deobfuscator](https://github.com/NotPrab/.NET-Deobfuscator) - List of .NET Deobfuscators and Unpackers.
 - [Android Unpacker](https://github.com/strazzere/android-unpacker) - Android Unpacker presented at Defcon 22: Android Hacker Protection Level 0.
+- [Angr](https://github.com/angr/angr) - Platform-agnostic binary analysis framework.
 - [APKiD](https://github.com/rednaga/APKiD) - Android application Identifier for packers, protectors, obfuscators and oddities - PEiD for Android.
 - [aPLib](https://ibsensoftware.com/products_aPLib.html) - Compression library based on the algorithm used in aPACK.
 - [AppSpear](https://github.com/UchihaL/AppSpear) - Universal and automated unpacking system suitable for both Dalvik and ART.
@@ -445,6 +456,7 @@
 - [GetTyp](https://www.helger.com/gt/gt.htm) - File format detection program for DOS based on special strings and byte code.
 - [GUnpacker](http://qunpack.ahteam.org/?p=327) - Shell tool that performs OEP positioning and dumps decrypted code.
 - [Justin](https://doi.org/10.1007/978-3-540-87403-4_6) - Just-In-Time AV scanning ; generic unpacking solution.
+- [Language 2000](https://farrokhi.net/language) - Ultimate compiler detection utility.
 - [LIEF](https://github.com/lief-project/LIEF) - Library to Instrument Executable Formats ; Python package for parsing PE, ELF, Mach-O and DEX formats, modifying and rebuilding executables.
 - [Malheur](https://github.com/rieck/malheur) - Tool for the automatic analysis of malware behavior (recorded from malicious software in a sandbox environment).
 - [MalUnpack](https://github.com/hasherezade/mal_unpack) - Dynamic unpacker based on PE-sieve.
@@ -470,6 +482,7 @@
 - [PEiD (yara)](https://github.com/K-atc/PEiD) - Yet another implementation of PEiD with yara.
 - [PeLib](https://github.com/avast/pelib) - PE file manipulation library.
 - [PEPack](https://github.com/merces/pev) - PE file packer detection tool, part of the Unix package "pev".
+- [PEscan](https://tzworks.com/prototype_page.php?proto_id=15) - CLI tool to scan PE files to identify how they were constructed.
 - [PETools](https://github.com/petoolse/petools) - Old-school reverse engineering tool (with a long history since 2002) for manipulating PE files.
 - [PINdemonium](https://github.com/Phat3/PINdemonium) - Unpacker for PE files exploiting the capabilities of PIN.
 - [PolyUnpack](https://github.com/PlatonovIvan/PolyUnpack) - Implemention attempt of the general approach for extracting the original hidden code of PE files without any heuristic assumptions.
@@ -491,6 +504,7 @@
 - [SAFE](mailto:mihai@cs.wisc.edu) - Static Analyzer For Executables (available on demand).
 - [SymPack](https://www.amazon.com/Norton-AntiVirus-2007-Old-Version/dp/B000IAOIXW) - Safe, portable, largely eﬀective but not generic library for packing detection and unpacking ; part of the Norton Antivirus solution.
 - [Titanium Platform](https://www.reversinglabs.com/products/malware-analysis-platform) - Machine learning hybrid cloud platform that harvests thousands of file types at scale, speeds threat detection through machine learning binary analysis, and continuously monitors an index of over 10B files for future threats.
+- [Triton](https://github.com/jonathansalwan/Triton) - Dynamic binary analysis library.
 - [Tuts 4 You](https://tuts4you.com) - Non-commercial, independent community dedicated to the sharing of knowledge and information on reverse code engineering.
 - [Unipacker](https://github.com/unipacker/unipacker) - Automatic and platform-independent unpacker for Windows binaries based on emulation.
 - [UnpacMe](https://www.unpac.me) - Automated malware unpacking service.
