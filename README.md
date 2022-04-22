@@ -32,7 +32,9 @@
 
 - :earth_americas: [a.out (FreeBSD manual pages)](https://www.freebsd.org/cgi/man.cgi?a.out(5))
 - :earth_americas: [A.out binary format](https://wiki.osdev.org/A.out)
+- :earth_americas: [About anti-debug tricks](https://anti-debug.checkpoint.com/about)
 - :bar_chart: [Android packers: Separating from the pack](https://www.fortiguard.com/events/759/2014-06-12-android-packers-separating-from-the-pack)
+- :pushpin: [Anti debugging protection techniques with examples](https://www.apriorit.com/dev-blog/367-anti-reverse-engineering-protection-techniques-to-use-before-releasing-software)
 - :bar_chart: [API deobfuscator: Resolving obfuscated API functions in modern packers](https://www.blackhat.com/docs/us-15/materials/us-15-Choi-API-Deobfuscator-Resolving-Obfuscated-API-Functions-In-Modern-Packers.pdf)
 - :bar_chart: [The art of unpacking](https://www.blackhat.com/presentations/bh-usa-07/Yason/Whitepaper/bh-usa-07-yason-WP.pdf)
 - :pushpin: [Cloak and dagger: Unpacking hidden malware attacks](https://symantec-enterprise-blogs.security.com/blogs/expert-perspectives/unpacking-hidden-malware-attacks)
@@ -325,6 +327,7 @@
 - [PELock](https://www.pelock.com) - Software protection system for Windows executable files ; protects your applications from tampering and reverse engineering, and provides extensive support for software license key management, including support for time trial periods.
 - [PePacker](https://github.com/SamLarenN/PePacker) - Simple PE Packer Which Encrypts .text Section I release a simple PE file packer which encrypts the .text section and adds a decryption stub to the end of the last section.
 - [PEShield](https://webscene.ir/tools/show/PE-SHIELD-0.25) - PE-SHiELD is a program, which encrypts 32-bit Windows EXE files, leaving them still executable.
+- [PESpin](http://downloads.fyxm.net/PESpin-95477.html)
 - [PEtite](https://www.un4seen.com/petite/) - Free Win32 (Windows 95/98/2000/NT/XP/Vista/7/etc) executable (EXE/DLL/etc) compressor.
 - [sePACKER](https://sourceforge.net/projects/sepacker/) - Simple Executable Packer is compressing executables' code section inorder to decrease size of binary files.
 - [Silent-Packer](https://github.com/SilentVoid13/Silent_Packer) - Silent Packer is an ELF / PE packer written in pure C.
@@ -452,6 +455,7 @@
 - [Bintropy](https://github.com/dhondta/bintropy) - Prototype analysis tool that estimates the likelihood that a binary file contains compressed or encrypted bytes.
 - [BinUnpack](https://doi.org/10.1145/3243734.3243771) - Unpacking approach free from tedious memory access monitoring, therefore introducing very small runtime overhead.
 - [BitBlaze](http://bitblaze.cs.berkeley.edu/release/index.html) - Analysis platform that features a novel fusion of static and dynamic analysis techniques, mixed concrete and symbolic execution, and whole-system emulation and binary instrumentation, all to facilitate state-of-the art research on real security problems.
+- [Capstone](https://www.capstone-engine.org) - Lightweight multi-platform, multi-architecture disassembly framework.
 - [ChkEXE](https://defacto2.net/f/a91dea6?dosmachine=svga&dosspeed=max) - Identifies almost any EXE/COM packer, crypter or protector.
 - [Clamscan Unpacker](https://clamunpacker.sourceforge.io/) - Unpacker derived from ClamAV.
 - [COM2EXE](https://defacto2.net/f/a520164?tool=com2exe) - Free tool for converting COM files to EXE format.
@@ -484,6 +488,7 @@
 - [PackerGrind](https://github.com/rewhy/adaptiveunpacker) - Adaptive unpacking tool for tracking packing bahaviors and unpacking Android packed apps.
 - [PackerID](https://github.com/sooshie/packerid) - Fork of packerid.py using PEid signatures and featuring additional output types, formats, digital signature extraction, and disassembly support.
 - [Packing-Box](https://github.com/dhondta/docker-packing-box) - Docker image gathering many packing-related tools and for making datasets of packed executables for use with machine learning.
+- [PANDA](https://github.com/panda-re/panda) - Platform for Architecture-Neutral Dynamic Analysis.
 - [Pandora's Bochs](https://0x0badc0.de/gitweb?p=bochs/.git) - Extension to the Bochs PC eumlator to enable it to monitor execution of the unpacking stubs for extracting the original code.
 - [PCjs](https://www.pcjs.org) - PCjs uses JavaScript to recreate the IBM PC experience, using original ROMs, CPUs running at their original speeds, and early IBM video cards and monitors.
 - [PE Compression Test](http://pect.atspace.com/) - List of packers tested on a few sample executables for comparing compressed sizes.
@@ -520,6 +525,7 @@
 - [RetDec](https://github.com/avast/retdec) - Retargetable machine-code decompiler based on LLVM.
 - [SAC](https://www.sac.sk/files.php?d=7&l=) - PACK: Archivers, exe-compressors, archiver shells and other related utils.
 - [SAFE](mailto:mihai@cs.wisc.edu) - Static Analyzer For Executables (available on demand).
+- [ShowStopper](https://github.com/CheckPointSW/showstopper) - Tool to help malware researchers explore and test anti-debug techniques or verify debugger plugins or other solutions that clash with standard anti-debug methods.
 - [SymPack](https://www.amazon.com/Norton-AntiVirus-2007-Old-Version/dp/B000IAOIXW) - Safe, portable, largely eﬀective but not generic library for packing detection and unpacking ; part of the Norton Antivirus solution.
 - [Titanium Platform](https://www.reversinglabs.com/products/malware-analysis-platform) - Machine learning hybrid cloud platform that harvests thousands of file types at scale, speeds threat detection through machine learning binary analysis, and continuously monitors an index of over 10B files for future threats.
 - [TrID](https://mark0.net/soft-trid-e.html) - Utility for identifying file types from their binary signatures.
