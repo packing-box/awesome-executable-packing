@@ -22,6 +22,7 @@
   - [After 2010](#after-2010)
   - [Between 2000 and 2010](#between-2000-and-2010)
   - [Before 2000](#before-2000)
+- [:loaders: Loaders](#loaders)
 - [:wrench: Tools](#wrench-tools)
 
 
@@ -469,6 +470,12 @@
 <p align="center"><a href="#"><img src="https://img.shields.io/badge/Back%20to%20top--lightgrey?style=social" alt="Back to top" height="20"/></a></p>
 
 
+## :loaders: Loaders
+
+- [PE Loader](https://github.com/Hagrid29/PELoader) - PELoader implement various shellcode injection techniques, and use libpeconv library to load encrypted PE files instead of injecting shellcode into remote thread
+- [DLL Loader](https://github.com/tapika/dllloader) - This git includes functionality for native .dll in-ram loading.
+
+<p align="center"><a href="#"><img src="https://img.shields.io/badge/Back%20to%20top--lightgrey?style=social" alt="Back to top" height="20"/></a></p>
 
 ## :wrench: Tools
 
