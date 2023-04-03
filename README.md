@@ -79,7 +79,7 @@
 - :bar_chart: [We can still crack you! General unpacking method for Android Packer (NO ROOT)](https://www.blackhat.com/asia-15/briefings.html#we-can-still-crack-you-general-unpacking-method-for-android-packer-no-root)
 - :bar_chart: [When malware is packing heat](https://www.eurecom.fr/publication/5372)
 - :clipboard: [Win32 portable executable packing uncovered](https://securitylabs.websense.com/content/Assets/HistoryofPackingTechnology.pdf)
-- :pushpin: [Writing a packer](https://dr4k0nia.github.io/dotnet/coding/2021/06/24/Writing-a-Packer.html)
+- :pushpin: [Writing a packer](https://dr4k0nia.github.io/posts/Writing-a-Packer/)
 - :pushpin: [Writing a simple PE packer in detail](https://github.com/levanvn/Packer_Simple-1)
 
 <p align="center"><a href="#"><img src="https://img.shields.io/badge/Back%20to%20top--lightgrey?style=social" alt="Back to top" height="20"/></a></p>
