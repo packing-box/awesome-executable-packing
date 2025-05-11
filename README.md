@@ -79,7 +79,7 @@
 - :pushpin: [Packer detection tool evaluation](https://github.com/FFRI/PackerDetectionToolEvaluation)
 - :page_facing_up: [Packers](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/corkami/packers.pdf)
 - :bar_chart: [Packing-box: Breaking detectors & visualizing packing](https://www.blackhat.com/eu-23/arsenal/schedule/index.html#packing-box-breaking-detectors--visualizing-packing-35678)
-- :bar_chart: [Packing-box: Improving detection of executable packing](https://www.blackhat.com/eu-24/arsenal/schedule?2#packing-box-improving-detection-of-executable-packing-41931)
+- :bar_chart: [Packing-box: Improving detection of executable packing](https://www.blackhat.com/eu-24/arsenal/schedule/index.html#packing-box-improving-detection-of-executable-packing-41931)
 - :bar_chart: [Packing-box: Playing with executable packing](https://www.blackhat.com/eu-22/arsenal/schedule/index.html#packing-box-playing-with-executable-packing-29054)
 - :pushpin: [Parsing mach-O files](https://lowlevelbits.org/parsing-mach-o-files)
 - :green_book: [Pattern recognition and machine learning (Information science and statistics)](https://dl.acm.org/doi/10.5555/1162264)
