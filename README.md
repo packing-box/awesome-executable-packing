@@ -710,7 +710,7 @@
 - [PyPackerDetect (refactored)](https://github.com/dhondta/PyPackerDetect) - A complete refactoring of the original project to a Python package with a console script to detect whether an executable is packed.
 - [PyPeid](https://github.com/FFRI/pypeid) - Yet another implementation of PEiD with yara-python.
 - [Quick Unpack](http://qunpack.ahteam.org/?p=458) - Generic unpacker that facilitates the unpacking process.
-- [RDG Packer Detector](http://www.rdgsoft.net) - Packer detection tool.
+- [RDG Packer Detector](https://web.archive.org/web/20220904151105/http://rdgsoft.net/) (_Web Archive_) - Packer detection tool.
 - [Reko](https://github.com/uxmal/reko) - Free decompiler for machine code binaries.
 - [REMINDer](https://github.com/packing-box/reminder) - Packing detection tool based on the entropy value of the entry point section and the WRITE attribute.
 - [REMnux](https://remnux.org) - Linux toolkit for reverse-engineering and analyzing malicious software.
