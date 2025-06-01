@@ -691,7 +691,7 @@
 - [Pefeats](https://github.com/roussieau/masterthesis/tree/master/src/detector/tools/pefeats) - Utility for extracting 119 features from a PE file for use with machine learning algorithms.
 - [Pefile](https://github.com/erocarrera/pefile) - Multi-platform Python module to parse and work with Portable Executable files.
 - [PEFrame](https://github.com/guelfoweb/peframe) - Tool for performing static analysis on PE malware and generic suspicious files.
-- [PEiD](http://www.secretashell.com/codomain/peid/) - Packed Executable iDentifier.
+- [PEiD](https://web.archive.org/web/20070529035022/https://www.secretashell.com/codomain/peid/) (_Web Archive_)  - Packed Executable iDentifier.
 - [PEiD (CLI)](https://github.com/dhondta/peid) - Python implementation of PEiD featuring an additional tool for making new signatures.
 - [PEiD (yara)](https://github.com/K-atc/PEiD) - Yet another implementation of PEiD with yara.
 - [PeLib](https://github.com/avast/pelib) - PE file manipulation library.
