@@ -630,7 +630,7 @@
 - [APKiD](https://github.com/rednaga/APKiD) - Android application Identifier for packers, protectors, obfuscators and oddities - PEiD for Android.
 - [aPLib](https://ibsensoftware.com/products_aPLib.html) - Compression library based on the algorithm used in aPACK.
 - [AppSpear](https://github.com/UchihaL/AppSpear) - Universal and automated unpacking system suitable for both Dalvik and ART.
-- [Assiste (Packer)](https://assiste.com/Packer.html) - Assiste.com's example list of packers.
+- [Assiste (Packer)](https://web.archive.org/web/20211017145403/https://assiste.com/Packer.html) (_Web Archive_) - Assiste.com's example list of packers.
 - [AVClass](https://github.com/malicialab/avclass) - Python tools to tag / label malware samples.
 - [Bintropy](https://github.com/dhondta/bintropy) - Prototype analysis tool that estimates the likelihood that a binary file contains compressed or encrypted bytes.
 - [BinUnpack](https://doi.org/10.1145/3243734.3243771) - Unpacking approach free from tedious memory access monitoring, therefore introducing very small runtime overhead.
