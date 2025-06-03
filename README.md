@@ -658,7 +658,7 @@
 - [EXETools](https://forum.exetools.com) - Forum for reverse engineering and executale packing related topics.
 - [FUU](https://github.com/crackinglandia/fuu) - Fast Universal Unpacker.
 - [GetTyp](https://www.helger.com/gt/gt.htm) - File format detection program for DOS based on special strings and byte code.
-- [GUnpacker](http://qunpack.ahteam.org/?p=327) - Shell tool that performs OEP positioning and dumps decrypted code.
+- [GUnpacker](https://web.archive.org/web/20220121084407/http://qunpack.ahteam.org/?p=327) (_Web Archive_) - Shell tool that performs OEP positioning and dumps decrypted code.
 - [Gym-Malware](https://github.com/endgameinc/gym-malware) - This is a malware manipulation environment for OpenAI's gym.
 - [IDR](https://github.com/crypto2011/IDR) - Interactive Delphi Reconstructor.
 - [ImpREC](https://www.aldeid.com/wiki/ImpREC) - This can be used to repair the import table for packed programs.
