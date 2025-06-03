@@ -684,7 +684,7 @@
 - [PANDA](https://github.com/panda-re/panda) - Platform for Architecture-Neutral Dynamic Analysis.
 - [Pandora's Bochs](https://0x0badc0.de/gitweb?p=bochs/.git) - Extension to the Bochs PC eumlator to enable it to monitor execution of the unpacking stubs for extracting the original code.
 - [PCjs](https://www.pcjs.org) - PCjs uses JavaScript to recreate the IBM PC experience, using original ROMs, CPUs running at their original speeds, and early IBM video cards and monitors.
-- [PE Compression Test](http://pect.atspace.com/) - List of packers tested on a few sample executables for comparing compressed sizes.
+- [PE Compression Test](https://web.archive.org/web/20250427032942/http://pect.atspace.com/) (_Web Archive_) - List of packers tested on a few sample executables for comparing compressed sizes.
 - [PE Detective](https://ntcore.com/?page_id=367) - This GUI tool can scan single PE files or entire directories (also recursevely) and generate complete reports.
 - [PE-bear](https://github.com/hasherezade/pe-bear-releases) - Freeware reversing tool for PE files aimed to deliver fast and flexible “first view” for malware analysts, stable and capable to handle malformed PE files.
 - [PEdump](https://pedump.me/) - Dump windows PE files using Ruby.
