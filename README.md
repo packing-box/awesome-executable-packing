@@ -418,7 +418,7 @@
 - [FFRI Dataset Scripts](https://github.com/FFRI/ffridataset-scripts) - Make datasets like FFRI Dataset.
 - [MaleX](https://github.com/Mayachitra-Inc/MaleX) - Curated dataset of malware and benign Windows executable samples for malware researchers containing 1,044,394 Windows executable binaries and corresponding image representations with 864,669 labelled as malware and 179,725 as benign.
 - [Malfease](https://web.archive.org/web/20141221153307/http://malfease.oarci.net) - Dataset of about 5,000 packed malware samples.
-- [Malheur](https://www.sec.cs.tu-bs.de/data/malheur) - Contains the recorded behavior of malicious software (malware) and has been used for developing methods for classifying and clustering malware behavior (see the JCS article from 2011).
+- [Malheur](https://web.archive.org/web/20240928172928/https://www.sec.cs.tu-bs.de/data/malheur/) - Contains the recorded behavior of malicious software (malware) and has been used for developing methods for classifying and clustering malware behavior (see the JCS article from 2011).
 - [Malicia](http://malicia-project.com/dataset.html) - Dataset of 11,688 malicous PE files collected from 500 drive-by download servers over a period of 11 months in 2013 (DISCONTINUED).
 - [MalShare](https://malshare.com) - Free Malware repository providing researchers access to samples, malicious feeds, and Yara results.
 - [The Malware Museum](https://archive.org/details/malwaremuseum) - The Malware Museum is a collection of malware programs, usually viruses, that were distributed in the 1980s and 1990s on home computers.
