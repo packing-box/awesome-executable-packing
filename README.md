@@ -436,6 +436,7 @@
 - [SOREL](https://github.com/sophos-ai/SOREL-20M) - Sophos-ReversingLabs 20 Million dataset.
 - [theZoo](https://github.com/ytisf/theZoo) - Project created to make the possibility of malware analysis open and available to the public.
 - [ViruSign](https://www.virusign.com) - Another online malware database.
+- [VirusSign](https://www.virussign.com/) - VirusSign.com is a platform that serves as a large malware sample repository for cybersecurity researchers.
 - [VirusSamples](https://www.virussamples.com)
 - [VirusShare](https://virusshare.com) - Virus online database with more than 44 millions of samples.
 - [VirusTotal](https://www.virustotal.com/gui/) - File analysis Web service for detecting malware.
