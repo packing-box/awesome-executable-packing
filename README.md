@@ -588,6 +588,7 @@
 - [Squishy](https://logicoma.io/squishy) - Modern packer developed for 64kb demoscene productions, targets 32bit and 64bit executables.
 - [theArk](https://github.com/aaaddress1/theArk) - Windows x86 PE Packer In C++.
 - [Themida](https://www.oreans.com/themida.php) - From Renovo paper: Themida converts the original x86 instructions into virtual instructions in its own randomized instruction set, and then interpret these virtual instructions at run-time.
+- [TinyLoad](https://github.com/iamsopotatoe-coder/TinyLoad) - Simple PE packer for Windows that compresses and encrypts executables with a custom virtual machine into a self-extracting stub.
 - [UPX](https://upx.github.io/) - Ultimate Packer for eXecutables.
 - [VirtualMachineObfuscationPoC](https://web.archive.org/web/20231226141018/https://github.com/eaglx/VirtualMachineObfuscationPoC) - Obfuscation method using virtual machine.
 - [VMProtect](https://vmpsoft.com/products/vmprotect) - Protects code by executing it on a virtual machine with non-standard architecture that makes it extremely difficult to analyze and crack the software.
