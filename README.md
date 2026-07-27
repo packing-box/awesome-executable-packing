@@ -549,6 +549,7 @@
 - EXE Stealth - Anti-cracking protection and licensing tool for PE files featuring compression and encryption polymorphic technology.
 - [Ezuri](https://github.com/guitmz/ezuri/blob/master/ezuri.go) - A Simple Linux ELF Runtime Crypter.
 - [GzExe](https://git.savannah.gnu.org/cgit/gzip.git) - Utility that allows to compress executables as a shell script.
+- [HimitsuShell](https://github.com/HimitsuShell/HimitsuShell) - A shell script protector that converts shell scripts into binaries with an embedded interpreter, obfuscation, and anti-debug protections (shc alternative).
 - [hXOR-Packer](https://github.com/rurararura/hXOR-Packer) - PE packer with Huffman compression and XOR encryption.
 - [Hyperion](https://github.com/nullsecuritynet/tools/tree/main/binary/hyperion)
 - [LIAPP](https://liapp.lockincomp.com) - Easiest and most powerful mobile app security solution.
