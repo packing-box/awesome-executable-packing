@@ -168,7 +168,7 @@
 - :notebook: [BODMAS: An open dataset for learning based temporal analysis of PE malware](https://ieeexplore.ieee.org/document/9474321) (May 2021)  :star:
 - :notebook: [Boosting scalability in anomaly-based packed executable filtering](https://link.springer.com/chapter/10.1007%2F978-3-642-34704-7_3) (November 2011) 
 - :mortar_board: [Building a malware mutation tool](https://dial.uclouvain.be/memoire/ucl/object/thesis:45960) (June 2024) 
-- :mortar_board: [Building a smart and automated tool for packed malware detections using machine learning](https://dial.uclouvain.be/memoire/ucl/en/object/thesis:25193) (June 2020) 
+- :mortar_board: [Building a smart and automated tool for packed malware detection using machine learning](https://dial.uclouvain.be/memoire/ucl/en/object/thesis:25193) (June 2020) 
 - :mortar_board: [Building high-quality datasets of packed executables - Enhancing static detection models via curated packed binary datasets](https://hdl.handle.net/2078.2/44553) (August 2025)  :star:
 - :newspaper: [Bypassing anti-analysis of commercial protector methods using DBI tools](https://ieeexplore.ieee.org/document/9312198) (January 2021)  :star:
 - :newspaper: [Bypassing heaven’s gate technique using black-box testing](https://www.mdpi.com/1424-8220/23/23/9417) (November 2023)  :star:
@@ -338,7 +338,7 @@
 - :newspaper: [On the (im)possibility of obfuscating programs (2)](https://dl.acm.org/doi/10.1145/2160158.2160159) (April 2012) 
 - :newspaper: [On the adoption of anomaly detection for packed executable filtering](https://www.sciencedirect.com/science/article/pii/S0167404814000522?via%3Dihub) (June 2014) 
 - :notebook: [On the feasibility of malware unpacking via hardware-assisted loop profiling](https://dl.acm.org/doi/10.5555/3620237.3620656) (August 2023)  :star:
-- :newspaper: [Opcode sequences as representation of executables for data-mining-based unknown malware detection](https://linkinghub.elsevier.com/retrieve/pii/S0020025511004336) (May 2013)  :star:
+- :newspaper: [Opcode sequences as representation of executables for data-mining-based unknown malware detection](https://linkinghub.elsevier.com/retrieve/pii/S0020025511004336) (May 2013) 
 - :newspaper: [Opcodes as predictor for malware](https://www.inderscienceonline.com/doi/abs/10.1504/IJESDF.2007.016865) (January 2008) 
 - :notebook: [OPEM: A static-dynamic approach for machine-learning-based malware detection](https://link.springer.com/chapter/10.1007/978-3-642-33018-6_28) (September 2012) 
 - :newspaper: [Original entry point detection based on graph similarity](https://link.springer.com/chapter/10.1007/978-3-031-57537-2_22) (April 2024)  :star:
@@ -352,6 +352,7 @@
 - :newspaper: [Packer detection for multi-layer executables using entropy analysis](https://www.mdpi.com/1099-4300/19/3/125) (March 2017)  :star:
 - :notebook: [Packer identification based on metadata signature](https://dl.acm.org/doi/10.1145/3151137.3160687) (December 2017)  :star:
 - :notebook: [Packer identification method based on byte sequences](https://onlinelibrary.wiley.com/doi/abs/10.1002/cpe.5082) (November 2018) 
+- :newspaper: [A packer identification method based on section-entropy plot](https://link.springer.com/article/10.1186/s42400-025-00416-y) (February 2026)  :star:
 - :notebook: [Packer identification method for multi-layer executables with k-Nearest neighbor of entropies](https://ieeexplore.ieee.org/document/9366089) (October 2020)  :star:
 - :notebook: [Packer identification using byte plot and Markov plot](https://link.springer.com/article/10.1007/s11416-015-0249-8) (September 2015) 
 - :notebook: [Packer identification using hidden Markov model](https://link.springer.com/chapter/10.1007/978-3-319-69456-6_8) (November 2017) 
@@ -359,6 +360,7 @@
 - :notebook: [PackGenome: Automatically generating robust YARA rules for accurate malware packer detection](https://dl.acm.org/doi/10.1145/3576915.3616625) (November 2023)  :star:
 - :bookmark: [PackHero: A scalable graph-based approach for efficient packer identification](https://re.public.polimi.it/handle/11311/1284225) (July 2025)  :star:
 - :mortar_board: [Packing detection and classification relying on machine learning to stop malware propagation](https://theses.hal.science/tel-03781104) (December 2021)  :star:
+- :notebook: [Packing induced bias in deep learning malware classifiers: A systematic experimental study](https://ieeexplore.ieee.org/abstract/document/11395794) (February 2026) 
 - :mortar_board: [Pandora's Bochs: Automatic unpacking of malware](https://www.researchgate.net/publication/268355151_Pandora%27s_Bochs_Automatic_Unpacking_of_Malware) (January 2008) 
 - :notebook: [Pattern recognition techniques for the classification of malware packers](https://link.springer.com/chapter/10.1007/978-3-642-14081-5_23) (July 2010) 
 - :newspaper: [PE file features in detection of packed executables](https://www.ijcte.org/show-42-485-1.html) (January 2012) 
@@ -448,7 +450,7 @@
 - :newspaper: [Using entropy analysis to find encrypted and packed malware](https://ieeexplore.ieee.org/document/4140989) (March 2007) 
 - :notebook: [VABox: A virtualization-based analysis framework of virtualization-obfuscated packed executables](https://link.springer.com/chapter/10.1007/978-3-030-78621-2_6) (June 2021)  :star:
 - :notebook: [VMAttack: Deobfuscating virtualization-based packed binaries](https://dl.acm.org/doi/10.1145/3098954.3098995) (August 2017) 
-- :notebook: [VMHunt: A verifiable approach to partially-virtualized binary code simplification](https://dl.acm.org/doi/10.1145/3243734.3243827) (October 2018)  :star:
+- :notebook: [VMHunt: A verifiable approach to partially-virtualized binary code simplification](https://dl.acm.org/doi/10.1145/3243734.3243827) (October 2018) 
 - :notebook: [VMRe: A reverse framework of virtual machine protection packed binaries](https://ieeexplore.ieee.org/document/8923473) (June 2019) 
 - :newspaper: [Watermarking, tamper-proofing, and obfuscation - Tools for software protection](http://ieeexplore.ieee.org/document/1027797/) (August 2002) 
 - :newspaper: [Wavelet decomposition of software entropy reveals symptoms of malicious code](https://linkinghub.elsevier.com/retrieve/pii/S2352664516300220) (December 2016) 
@@ -554,7 +556,7 @@
 - [Hyperion](https://github.com/nullsecuritynet/tools/tree/main/binary/hyperion)
 - [LIAPP](https://liapp.lockincomp.com) - Easiest and most powerful mobile app security solution.
 - [LM-X License Manager](https://www.x-formation.com/lm-x-license-manager) - Lets you protect your products against piracy by enforcing various levels of security, save time, and reduce business risks.
-- [LZPACK](https://github.com/johnsonjh/lzpack) - LZPACK - PopCom!-compatible CP/M-80 executable compressor in ANSI C, runs on 48K CP/M-80, CP/M-86, MS-DOS, UNIX, and other platforms.
+- [LZPACK](https://github.com/johnsonjh/lzpack) - PopCom!-compatible CP/M-80 executable compressor in ANSI C, runs on 48K CP/M-80, CP/M-86, MS-DOS, UNIX, and other platforms.
 - [m0dern_p4cker](https://github.com/n4sm/m0dern_p4cker) - Just a modern packer for elf binaries ( works on Linux executables only ).
 - [MidgetPack](https://github.com/arisada/midgetpack) - ELF binary packer, such as burneye, upx or other tools.
 - [MPRESS](https://www.autohotkey.com/mpress/mpress_web.htm) - Compresses (using LZMA) and protects PE, .NET or Mach-O programs against reverse engineering.
@@ -833,7 +835,7 @@
 - [VMHunt](https://github.com/s3team/VMHunt) - Set of tools for analyzing virtualized binary code ; now only supports 32 bit traces.
 - [VMUnpacker](https://web.archive.org/web/20241106123938/https://www.leechermods.com/2010/01/vmunpacker-16-latest-version.html) - Unpacker based on the technology of virtual machine.
 - [Winbindex](https://github.com/m417z/winbindex) - An index of Windows binaries, including download links for executables such as EXE, DLL and SYS files.
-- [XVolkolak](https://github.com/horsicq/XVolkolak) - XVolkolak an unpacker emulator.
+- [XVolkolak](https://github.com/horsicq/XVolkolak) - Qt/CMake emulator-unpacker project with a GUI and a console application.
 - [yarGen](https://github.com/Neo23x0/yarGen) - Generator for YARA rules - The main principle is the creation of yara rules from strings found in malware files while removing all strings that also appear in goodware files.
 
 <p align="center"><a href="#top"><img src="https://img.shields.io/badge/Back%20to%20top--lightgrey?style=social" alt="Back to top" height="20"/></a></p>
