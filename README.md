@@ -529,6 +529,7 @@
 - [Bero](https://blog.rosseaux.net/page/875fbe6549aa072b5ee0ac9cefff4827/BeRoEXEPacker) - BEP (Bero EXE Packer) for 32-bit windows executables.
 - [BIN-crypter](https://www.autoitscript.com/forum/topic/129383-bin-crypter/) - EXE protection software against crackers and decompilers.
 - [BoxedApp Packer](https://www.boxedapp.com/boxedapppacker)
+- [ChaosProtector](https://chaosprotector.com) - Post-build protector for Windows x86/x64 PE and Linux ELF64 binaries: virtualization of selected functions (chosen by name from PDB, COFF or MAP symbols), obfuscation, string encryption and anti-debugging.
 - [Code Virtualizer](https://www.oreans.com/CodeVirtualizer.php) - Powerful code obfuscation system for Windows, Linux and macOS applications that helps developers to protect their sensitive code areas against Reverse Engineering with very strong obfuscation code, based on code virtualization.
 - [ConfuserEx](https://github.com/mkaring/ConfuserEx) - An open-source, free protector for .NET applications.
 - [Crinkler](https://github.com/runestubbe/Crinkler) - Compressing linker for Windows, specifically targeted towards executables with a size of just a few kilobytes.
